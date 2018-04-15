@@ -12,10 +12,8 @@ Lab 10 and Homework 9
 7. (__NEW__) ==> Load the database with sample data containing a set of real estate properties: `python manage.py loaddata property-testdata`
 8. Run the test server: `python manage.py runserver`
 
-properties App
+TODO: properties App
 ----
-
-TODO
 
 ### 1. Modify the project by implementing the detail template for a property object. The template file already exists but needs to be edited to show all of the information for the indicated property. Edit ==> properties/templates/properties/detail.html
 
@@ -25,15 +23,14 @@ TODO
 
 ### 3. Return to the html page you edited above and write code to show the zip code as well.
 
-messenger App
+TODO: messenger App
 ----
-The messenger app is responsible for storing, displaying and managing communication between customers and real estate agents. Below are two example use cases for this app.
+__The messenger app is responsible for storing, displaying and managing communication between customers and real estate agents. Below are two example use cases for this app.__
 
-Use Case: Customer submits a message for a real estate agent regarding a specific property.
+_Use Case: Customer submits a message for a real estate agent regarding a specific property._
 
-Use Case: Real estate agent reads messages left by customers regarding a specific property.
+_Use Case: Real estate agent reads messages left by customers regarding a specific property._
 
-TODO
 
 ### 4. Implement a model for the messenger app called __Message__ (messenger/models.py). This model has the following attributes: a subject line, the message text, date created, and email of the person submitting the message. 
 
