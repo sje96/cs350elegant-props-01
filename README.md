@@ -15,7 +15,7 @@ Lab 10 and Homework 9
 TODO: properties App
 ----
 
-### 1. Modify the project by implementing the detail template for a property object. The template file already exists but needs to be edited to show all of the information for the indicated property. Edit ==> properties/templates/properties/detail.html
+### 1. Modify the project by implementing the detail template for a property object. The template file already exists but needs to be edited to show all of the information for the indicated property. Edit ==> `properties/templates/properties/detail.html`
 
 `HINT:` The template variable name for an object in a DetailView defaults to `object`
 
