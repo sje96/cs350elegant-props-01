@@ -2,7 +2,7 @@ Lab 10 and Homework 9
 ====
 
 # Get Started
-1. __fork__ this repository to your GitHub account (use the fork button at the top)
+1. __fork__ this repository (https://github.com/rmedinahu/cs350elegant-props-01) to your GitHub account (use the fork button at the top)
 2. __clone__ your forked repo to your local working directory
 3. cd to repository/project root
 ... you know the drill...
