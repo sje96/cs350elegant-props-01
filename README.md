@@ -37,22 +37,17 @@ TODO
 
 * Implement a model for the messenger app called __Message__ (messenger/models.py). This model has the following attributes: a subject line, the message text, date created, and email of the person submitting the message. 
 
-a. Use the appropriate django model field types for each attribute:
-
-https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-types
+a. Use the appropriate django model field types for each attribute: https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-types
 
 * Add an admin panel for the new Message model.
 
 a. messenger/admin.py ==> add `admin.site.register(Message)` to the file. Take a look at properties/admin.py to learn how to import the Message model from the models file in the messenger app.
-
 b. Run `makemigrations` then `migrate` to create your new model in the db.
-
 c. Run the server and go to the admin site. You should see a new panel for managing messages. Add a few then move on the next task.
 
 * Add a way to display a list of all messages in the db in a html page.
 
 a. Create a view in messenger/views.py that extends generic.ListView
-
 b. Create an html template in the appropriate directory in the messenger app (review the properties app for guidance -- you're repeating the same process...). You decide on the layout and look and feel.
 
 `HINT:` Review properties/templates/properties/list.html for an example of looping over variables produced by generic.ListView
