@@ -17,8 +17,7 @@
                 <h5 class="card-title">{{ prop.prop_type }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">${{ prop.price|intcomma }}</h6>
                 <p class="card-text">{{ prop.description }}</p>
-                <a href="#" class="card-link-bottom">{{ prop.nearest_elementary }}</a>
-                <a href="{% url 'properties:detail' prop.pk %}" class="card-link-bottom">check it out</a>
+                <a href="{% url 'properties:detail' prop.pk %}" class="card-link-bottom btn btn-primary btn-sm">Check it out</a>
             </div>
         </div>
     </div>
