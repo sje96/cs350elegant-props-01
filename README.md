@@ -48,6 +48,7 @@ c. Run the server and go to the admin site. You should see a new panel for manag
 ### 6. Add a way to display a list of all messages in the db in a html page.
 
 a. Create a view in messenger/views.py that extends generic.ListView
+
 b. Create an html template in the appropriate directory in the messenger app (review the properties app for guidance -- you're repeating the same process...). You decide on the layout and look and feel.
 
 `HINT:` Review properties/templates/properties/list.html for an example of looping over variables produced by generic.ListView
