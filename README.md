@@ -1,6 +1,8 @@
 Lab 10 and Homework 9
 ====
 
+### Tasks 1 through 6 constitute Homework 9. __Due date is Friday, April 20__ by 11:59pm. Submit by pushing to your github repository.
+
 # Get Started
 1. __fork__ this repository (https://github.com/rmedinahu/cs350elegant-props-01) to your GitHub account (use the fork button at the top)
 2. __clone__ your forked repo to your local working directory
