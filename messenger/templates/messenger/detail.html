@@ -1,0 +1,14 @@
+{% extends "core/base.html" %}
+{% load humanize %}
+{% block page_title %} Messenger {% endblock page_title %}
+
+{% block page_header %}Reviews{% endblock page_header %}
+
+{%block content %}
+
+<p>{{object.subject}}</p>
+<p>{{object.message}}</p>
+<p>{{object.date}}</p>
+<p>{{object.email}}</p>
+
+{% endblock content %}
